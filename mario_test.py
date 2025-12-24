@@ -17,7 +17,7 @@ import gym
 # env.close()
 
 # 保存路径
-video_dir_path = 'video/mario_test'
+video_dir_path = 'video\\mario_test'
 # 创建游戏环境
 env = gym_super_mario_bros.make('SuperMarioBros-v0')
 env = JoypadSpace(env, SIMPLE_MOVEMENT)
